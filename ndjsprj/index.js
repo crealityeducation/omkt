@@ -12,3 +12,5 @@ let objarr = [
 ];
 
 _.forEach(objarr, (o)=>{console.log(o.addr)})
+
+console.log(_.sortBy(objarr,['name']));
